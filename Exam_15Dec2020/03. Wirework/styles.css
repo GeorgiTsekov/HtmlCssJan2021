@@ -1,0 +1,159 @@
+@import 'https://use.fontawesome.com/releases/v5.15.2/css/all.css';
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.section-wrapper {
+    max-width: 1550px;
+    margin: 0 20px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation-content-title {
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.header-navigation-content-subtitle {
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+.header-navigation-content-title::after {
+    content: '';
+    background: lightgray;
+    width: 2px;
+    height: 40px;
+    position: relative;
+    display: inline-flex;
+    left: 8px;
+    top: 10px;
+}
+
+.header-navigation-button:first-child {
+    background: #E24E2A;
+    color: white;
+}
+
+.header-navigation-button {
+    padding: 15px 20px;
+    margin: 0px -3px auto auto;
+    border: none;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.header-image img {
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about {
+    background: #E24E2A;
+}
+
+.about-text {
+    padding: 80px;
+    margin: -5px auto 0 auto;
+    max-width: 75%;
+    color: lightgray;
+    text-align: center;
+}
+
+.about-text a {
+    color: lightgray;
+}
+
+.benefits {
+    display: flex;
+    background: black;
+    padding: 90px;
+    color: whitesmoke;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit {
+    margin: 0 30px;
+}
+
+.benefit-logo {
+    background: #E24E2A;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.benefit-logo i {
+    
+    font-size: 50px;
+}
+
+.benefit-title {
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.benefit-title-2 {
+    font-size: 20px;
+}
+
+.benefit-text {
+    color: gray;
+}
+
+.cta {
+    padding: 50px;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.cta-subtitle {
+    font-size: 17px;
+    color: gray;
+    margin-top: 0;
+}
+
+.cta-btn {
+    padding: 15px 40px;
+    background: #008000;
+    color: whitesmoke;
+}
+
+.footer {
+    background: #008000;
+
+}
+
+.footer p {
+    color: gray;
+    padding: 80px;
+    margin: -5px auto 0 auto;
+    color: lightgray;
+    text-align: center;
+}
+
+.footer p span {
+    color: whitesmoke;
+}

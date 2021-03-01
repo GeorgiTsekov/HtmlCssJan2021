@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+body,
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #EEEEEE;
+    max-width: 1400px;
+    padding: 50px 200px 50px 200px;
+}
+
+body ul li {
+    display: inline-block;
+}
+
+body ul li img {
+    border: 0.4rem solid black;
+    max-width: 300px;
+    padding: 12px;
+    margin: 5px;
+    vertical-align: middle;
+}

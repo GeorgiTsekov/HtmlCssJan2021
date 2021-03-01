@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 12%;
+    border-top: solid 10px #222222;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6D6A5F;
+}
+
+.footer-title {
+    color: #6D6A5F;
+    flex-basis: 100%;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-end {
+    color: #6D6A5F;
+    flex-basis: 100%;
+}
+
+@media all and (max-width: 900px) {
+    .footer-col {
+        width: 150px;
+    }
+
+    .footer-col ul {
+        margin: 0;
+    }
+}

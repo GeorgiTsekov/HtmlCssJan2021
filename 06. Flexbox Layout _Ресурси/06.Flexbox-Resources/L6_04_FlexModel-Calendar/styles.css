@@ -1,0 +1,46 @@
+html {
+    background: #EEEEEE;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: initial;
+    text-align: center;
+}
+
+div, section {
+    display: flex;
+}
+
+.container {
+    max-width: 65vw;
+    margin: 60px auto;
+}
+
+.container .week {
+    flex-grow: 1;
+    flex-basis: 50vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .week span:nth-child(1),
+.container .week span:nth-child(7) {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+}
+
+.container .notes {
+    flex-direction: column;
+}
+
+span {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    padding-bottom: 100px;
+
+}

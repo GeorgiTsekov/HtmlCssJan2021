@@ -1,0 +1,14 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+article {
+    color: rgb(51, 51, 51);
+    padding: 0px 250px 0px 250px;
+    border: solid 3px black;
+    margin: 0px 180px 0px 0px;
+}
+
+article img {
+    width: 60%;
+}

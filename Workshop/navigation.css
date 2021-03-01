@@ -1,0 +1,13 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.sign-in-btn {
+    background: #E50914;
+    max-height: 25px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}

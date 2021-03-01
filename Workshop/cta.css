@@ -1,0 +1,41 @@
+.cta-content {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+@media all and (max-width: 900px) {
+    .cta-content-summary {
+        font-size: 12px;
+    }
+}
+
+.cta-content-cta-btn {
+    background: #E50914;
+    color: white;
+    border: none;
+    padding: 5px 25px 5px 15px;
+    margin-left: -5px;
+}
+
+.cta-content-cta-btn::after {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f054';
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+
+.cta-content-cta-email {
+    padding: 5px;
+    border: none;
+    min-width: 300px;
+}
+
+@media all and (max-width: 900px) {
+    .cta-content-cta {
+        margin: 20px auto;
+    }
+}
